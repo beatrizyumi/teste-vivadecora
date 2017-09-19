@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+
+/* Reset */
+html {
+	min-height: 100vh;
+	font-size: 62.5%;
+}
+
+body {
+	margin: 0;
+	font-size: 1.6rem;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	vertical-align: bottom;
+}
+
+/* Fim do Reset */
+
+/*Classes gerais*/
+
+.viewport {
+	padding: 0 15px;
+}
+
+body {
+	background-image: linear-gradient(to bottom, rgba(255,28,28,0.9), rgba(255,86,86,0.9)), url(https://static.omelete.uol.com.br/media/extras/conteudos/woman.jpg);
+	background-size: cover, cover;
+	background-position: center, center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*Fim das classes gerais*/
+
+/*Header*/
+.div-main {
+	max-width: 800px;
+	margin: auto;
+}
+
+.main-header {
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	padding-bottom: 40px;
+}
+
+.main-header img {
+	padding: 20px 0 30px;
+}
+
+.main-header ul {
+	list-style: none;
+	padding: 0;
+}
+
+.main-header li {
+	display: inline-block;
+	padding: 0 20px;
+	opacity: 0.8;
+	text-transform: uppercase;
+	font-weight: 700;
+	transition: all 0.3s;
+}
+
+.main-header li a{
+	border-bottom: 4px solid transparent;
+	transition: all 0.3s;
+}
+
+.main-header li.active {
+	opacity: 1;
+}
+
+.main-header li.active a {
+	border-bottom: 4px solid #fff;
+}
+
+.main-header li:hover {
+	opacity: 1;
+}
+
+
+.main-header li:hover a{
+	border-bottom: 4px solid #fff;
+}
+
+/*Fim do header*/
+
+/*Main content*/
+
+.imagem {
+	text-align: center;
+	position: relative;
+	padding-bottom: 40px;
+}
+
+.imagem img {
+	border-radius: 5px;
+}
+
+.imagem .img-content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to bottom, rgba(255,255,255,0) 1%, rgba(184,184,184,0.8)) no-repeat center / cover transparent;
+	border-radius: 5px;
+}
+
+.img-bg {
+	width: 100%;
+	padding-top: 62.5%;
+	border-radius: 5px;
+	background: linear-gradient(to bottom, rgba(255,255,255,0) 1%, rgba(184,184,184,0.8)) no-repeat center / cover, url(https://static.omelete.uol.com.br/media/extras/conteudos/woman.jpg) no-repeat center / cover transparent;
+}
+
+
+.actions {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	margin: auto;
+	padding: 60px 0;
+}
+
+.button {
+	position: relative;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	border-radius: 99px;
+	background-color: white;
+	border: none;
+	padding: 30px 40px 30px 80px;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 2.2rem;
+	color: #464545;
+	vertical-align: middle;
+}
+
+.button.no-icon {
+	font-size: 1.8rem;
+	margin: 0 40px;
+	padding: 32px 40px 33px;
+}
+
+.button.curti {
+	padding-right: 60px;
+	padding-left: 100px;
+	color: #ee5353;
+}
+.button img {
+	position: absolute;
+	left: 35px;
+}
+
+.button.nao-curti img {
+	position: absolute;
+	top: 35px;	
+}
+
+.button.curti img {
+	position: absolute;
+	top: 18px;
+	left: 52px;
+}
+
+/*
+
+.actions .button:after {
+	content:'';
+	position: absolute;
+	top:0;
+	left:100%;
+	display: inline-block;
+	border: 20px solid transparent;
+	border-left-color: green;
+}
+*/
+
